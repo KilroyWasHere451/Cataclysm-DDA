@@ -457,7 +457,7 @@ class vpart_info
          * Energy consumed per second by engines and motors when delivering max @ref power
          * Includes waste. Gets scaled based on powertrain demand.
          */
-        units::power energy_consumption = 0_W;
+        units::energy energy_consumption = 0_J;
 
         /**
          * For engines and motors this is maximum output (watts)
